@@ -17,20 +17,20 @@
 
 ## ROOM INFINITY SOLUTION:
 
-### Taking input of number of elements and the list of integers
-> k, arr = int(input()), list(map(int, input().split()))
+> Taking input of number of elements and the list of integers
+> k, arr = `int(input()), list(map(int, input().split()))`
 
-### Creating a set from the list to find the unique integers
-> myset = set(arr)
+> Creating a set from the list to find the unique integers
+> myset = `set(arr)`
 
-### Calculating the sum of the unique integers
-> unique_sum = sum(myset)
+> Calculating the sum of the unique integers
+> unique_sum = `sum(myset)`
 
-### Calculating the sum of all integers in the original list
-> total_sum = sum(arr)
+> Calculating the sum of all integers in the original list
+> total_sum = `sum(arr)`
 
-### Calculating the missing number using the formula
-> missing_num = ((unique_sum * k) - total_sum) // (k-1)
+> Calculating the missing number using the formula
+> missing_num = `((unique_sum * k) - total_sum) // (k-1)`
 
-### Printing the missing number
-> print(missing_num)
+> Printing the missing number
+> print(`missing_num`)
