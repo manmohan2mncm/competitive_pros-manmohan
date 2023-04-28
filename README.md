@@ -2,7 +2,6 @@
 
 ## WEIRD NUMS SOLUTION:
 
-### This is a Python program that takes input from the user and classifies the number based on certain conditions. Let's break down the code:
 
 > 1. `n = input().split()` - This line of code takes the input from the user as a string and splits it into a list of strings using the default separator which is a space.
 
@@ -12,9 +11,10 @@
 
 > 4. `print(o)` - Finally, we print the list of outputs.
 
-
-
-
+<br>
+#___________________________________________________________________________________________________________________
+<br>
+  
 ## ROOM INFINITY SOLUTION:
 
 > Taking input of number of elements and the list of integers
